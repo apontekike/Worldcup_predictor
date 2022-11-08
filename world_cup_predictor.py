@@ -1,7 +1,7 @@
 import numpy as np 
 import pandas as pd
 
-df = pd.read_csv("international_matches.csv")
+df = pd.read_csv("World_cup_Database.csv")
 
 # Cleaning training data Set
 df.sort_values('date', ascending=False)
