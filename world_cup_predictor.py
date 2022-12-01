@@ -68,43 +68,74 @@ X_val = X_val.to_numpy()
 X_test = X_test.to_numpy()
 
 
-teams_stats = {"Qatar":[50 , 78, 77, 77, 77], 
-                "France":[ 4, 88, 85, 83, 87],
-                "England":[ 5, 85, 83, 83, 83]}
+
 #TEAM STATS
 Qatar=[50 , 78, 77, 77, 77]
-Equador=[44, 75, 75, 75, ]
-# Senegal=[ 18, , , , ]
-Netherlands=[ 8, 82, 81, 83, ]
+Equador=[44, 75, 75, 75, 74]
+Senegal=[ 18, 79, 76, 77, 86]
+Netherlands=[ 8, 82, 81, 83, 79]
 England=[ 5, 86, 83, 83, 83]
-Iran=[ 20, 81, 73, 72, ]
-# USA=[ 16, , , , ]
-# Wales=[ 19, , , , ]
+Iran=[ 20, 81, 73, 72, 74]
+USA=[ 16, 77, 78, 76, 79]
+Wales=[ 19, 78, 76, 77, 76]
 Argentina=[ 3, 86, 84, 82, 84]
-# Saudi_Arabia=[ 51, , , , ]
-# Mexico=[ 13, , , , ]
-# Poland=[ 26, , , , ]
+Saudi_Arabia=[ 51, 71, 72, 71, 71]
+Mexico=[13, 79, 77, 77, 84]
+Poland=[ 26, 81, 75, 75, 86]
 France=[ 4, 85, 83, 83, 87]
-Australia=[38 , 72, 72, 71, ]
+Australia=[38 , 72, 72, 71, 80]
 Denmark=[ 10, 77, 83, 80, ]
-# Tunisia=[ 30, , , , ]
-Spain=[ 7, 82, 84, 83, 84]
-Costa_Rica=[ 31, 73, 73, 74, ]
+Tunisia=[ 30, 72, 75, 71, 73]
+Spain=[ 7, 83, 85, 83, 84]
+Costa_Rica=[ 31, 73, 73, 74, 87]
 Germany=[ 11, 84, 85, 82, 90]
 Japan=[ 24, 75, 77, 76, 79]
 Belgium=[ 2, 84, 81, 79, 90]
-Canada=[ 41, 75, 78, 72, ]
-# Morroco=[ 22, , , , ]
-Croatia=[ 12, 80, 83, 78, ]
-Brazil=[ 1, 85, 85, 83, ]
-# Serbia=[ 21, , , , ]
-# Switzerland=[ 15, , , , ]
+Canada=[ 41, 75, 78, 72, 75]
+Morroco=[ 22, 79, 73, 78, 82]
+Croatia=[ 12, 80, 83, 78, 81]
+Brazil=[ 1, 85, 85, 83, 89]
+Serbia=[ 21, 80, 80, 75, 81]
+Switzerland=[ 15, 77, 78, 78, 86]
 Cameroon=[ 43, 75, 75, 72, 70 ]
 Portugal=[ 9, 84, 84, 84, 83]
 Ghana=[ 61, 81, 76, 75, 76]
-# Uruguay=[ 14, , , , ]
+Uruguay=[ 14, 81, 82, 79, 78]
 Korea_Republic=[ 28, 79, 74, 75, 78]
 
+
+teams_stats = {"Qatar":Qatar,
+"Equador":Equador,
+"Senegal":Senegal,
+"Netherlands":Netherlands,
+"England":England,
+"Iran":Iran,
+"USA":USA,
+"Wales":Wales,
+"Argentina":Argentina,
+"Saudi_Arabia":Saudi_Arabia,
+"Mexico":Mexico,
+"Poland":Poland,
+"France":France,
+"Australia":Australia,
+"Denmark":Denmark,
+"Tunisia":Tunisia,
+"Spain":Spain,
+"Costa_Rica":Costa_Rica,
+"Germany":Germany,
+"Japan":Japan,
+"Belgium":Belgium,
+"Canada":Canada,
+"Morroco":Morroco,
+"Croatia":Croatia,
+"Brazil":Brazil,
+"Serbia":Serbia,
+"Switzerland":Switzerland,
+"Cameroon":Cameroon,
+"Portugal":Portugal,
+"Ghana":Ghana,
+"Uruguay":Uruguay,
+"Korea_Republic":Korea_Republic}
 
 
 import sklearn
