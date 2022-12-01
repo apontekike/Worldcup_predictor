@@ -1,4 +1,4 @@
-# ASL_alphabet_classifier
+# World Cup 2022 Predictor
 
 Final project for McGill AI Society Intro to ML Bootcamp (Fall 2022). 
 
