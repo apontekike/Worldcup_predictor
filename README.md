@@ -18,7 +18,7 @@ To run the web app, install the packages pandas, Sklearn, and Bottle. Then run
 python WebApp.py
 ```
 
-Lastly, open a browser and navigate to your http://localhost:8000.
+Lastly, open a browser and navigate to your http://localhost:8080.
 
 ## Repository organization
 
